@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "degree": "Master of Computer Applications (MCA)",
+    "institution": "Maharaja Engineering College",
+    "university": "Bharathiar University",
+    "from": "Aug 2000",
+    "to": "April 2003",
+    "grade": "First Class"
+  },
+  {
+    "id": 2,
+    "degree": "Bachelor of Science (BSc) in Physics",
+    "institution": "Catholicate College Pathanamthitta",
+    "university": "MG University",
+    "from": "June 1997",
+    "to": "April 2000",
+    "grade": "First Class"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+  "skill-name": "Programming",
+  "skills": [
+    "Java 1.4,1.5,1.8,12,25",
+    "Python",
+    "TypeScript",
+    "Rust" 
+  ]
+},
+{
+  "skill-name": "Databases",
+  "skills": [
+    "Sybase",
+    "Oracle",
+    "SQL Server",
+    "SQL"
+  ]
+  },
+  {
+  "skill-name": "Java Based Frameworks",
+  "skills": [
+    "SpringBoot",
+    "SpringMVC",
+    "J2EE",
+    "Struts",
+    "Hibernate"    
+  ]
+  },
+  {
+  "skill-name": "UI Skills",
+  "skills": [
+    "HTML",
+    "CSS",
+    "TypeScript",
+    "React"
+  ]
+  },
+  {
+  "skill-name": "Caching",
+  "skills": [
+    "Redis",
+    "Hazelcast",
+    "Jboss Infinispan"
+  ]
+  },
+  {
+  "skill-name": "Integration Tools",
+  "skills": [
+    "Apache Camel",
+    "Appache Kafka",
+    "Solace"
+  ]
+  },
+  
+  {
+  "skill-name": "Build and Configuration Management",
+  "skills": [
+    "Git",
+    "Maven",
+    "SVN"
+  ]
+  },
+  {
+  "skill-name": "CI & CD Tools",
+  "skills": [
+    "Jenkins",
+    "TeamCity"
+  ]
+  },
+  {
+  "skill-name": "Cloud Skills",
+  "skills": [
+    "AWS",
+    "Terraform",
+    "S3",
+    "EC2",
+    "Memcache"
+  ]
+  }
+
+]

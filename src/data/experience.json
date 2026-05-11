@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "jobTitle":"Senior Java Developer", 
+    "company":"Ascendion",
+    "client": "Bank of America",
+    "from": "Jan 2025",
+    "to": "Dec 2025",
+    "location" : "London, UK",
+    "description":  "\n * Delivered enhancements to Java-based legacy reference data applications (PME Fusion), improving the system stability and maintainability.\n* Built a Spring Boot–based automation framework for SQL testing, reducing manual effort and accelerating validation cycles.\n* Developed a Spring Boot API testing tool to load and validate ARMS cache data, improving test reliability and consistency.\n* Owned release and deployment activities, including Octane test case coordination, ensuring smooth and timely production releases."
+  },
+    {
+    "id": 2,
+    "jobTitle":"Senior Java Developer", 
+    "company":"Luxoft",
+    "client": "Deutsche Bank",
+    "from": "Feb 2022",
+    "to": "Sep 2023",
+    "location" : "London, UK",
+    "description":  "\n * Architected and delivered event-driven microservices to consolidate swap data (exceptions, dividends, holdings) from multiple upstream services, improving data consistency and timeliness for downstream consumers.\n * Drove cross-functional requirement alignment by proactively clarifying complex business rules with business analysts and upstream/downstream teams, reducing ambiguity and accelerating delivery.\n * Integrated a distributed microservice ecosystem using Solace messaging, improving reliability and scalability of inter-service communication.\n * Led collaboration across globally distributed teams in India, the US, and Spain to coordinate execution, unblock dependencies, and deliver milestones on schedule."
+  },
+  {
+    "id": 3,
+    "jobTitle":"Senior Java Developer", 
+    "company":"TCS",
+    "client": "London Stock Exchange",
+    "from": "Jul 2017",
+    "to": "Feb 2022",
+    "location" : "London, UK",
+    "description":  "\n * Built a cache synchronization service to keep cached data aligned with real-time database changes, improving data accuracy and consistency across the platform.\n * Designed and implemented an entity persistence framework on Redis, reducing direct database dependency and improving throughput and response times.\n * Developed an automated cache-cleanup service to evict stale and unused entities, optimizing memory utilization and cache efficiency.\n * Improved platform performance through targeted load testing and JProfiler-based tuning, and architected a robust fix for a race condition between two applications to increase system stability."
+  }
+  
+]
+

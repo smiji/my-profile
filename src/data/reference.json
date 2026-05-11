@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "label": "Reference 1",
+    "name": "Arun Janardhanan",
+    "company": "NTT Data",
+    "contact": "07471462050"
+  },
+  {
+    "id": 2,
+    "label": "Reference 2",
+    "name": "Jayakumar Sethuram",
+    "company": "London Stock Exchange",
+    "contact": "07378604136"
+  }
+]

@@ -1,0 +1,35 @@
+[
+{ 
+  "x": "TCS", 
+  "x-label": "Jan/2010-Feb/2022",
+  "y": 2.9, 
+  "label": "American Express "
+ },
+{ 
+  "x": "TCS", 
+  "x-label": "Mar/2013-Aug/2014",
+  "y": 1.5, 
+  "label": "Aviva Ireland" 
+ },
+{ 
+  "x": "TCS", 
+  "x-label": "Jan/2015-Dec/2015",
+  "y": 1, 
+  "label": "Society Generale"
+ },
+{ 
+  "x": "TCS", 
+  "x-label": "Dec/2015-Jun/2017",
+  "y": 1.6, 
+  "label": "SEI Investment"
+ },
+
+ { 
+  "x": "TCS", 
+  "x-label": "Jul/2017-Feb/2022",
+  "y": 4.6, 
+  "label": "London Stock Exchange"
+ }
+
+
+]
