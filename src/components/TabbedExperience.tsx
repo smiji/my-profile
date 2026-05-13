@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 type TabbedExperienceProps = {
+  activeTab: number;
+  setActiveTab: React.Dispatch<React.SetStateAction<number>>; 
   experiences: Array<{
     id: number;
     jobTitle: string;
@@ -13,9 +15,7 @@ type TabbedExperienceProps = {
   }>;
 };
 
-const TabbedExperience: React.FC<TabbedExperienceProps> = ({ experiences }) => {
-  const [activeTab, setActiveTab] = useState(0);
-
+const TabbedExperience: React.FC<TabbedExperienceProps> = ({ experiences, activeTab, setActiveTab }) => {
   return (
     <div className="p-8 bg-white shadow-md rounded-lg max-w-4xl mx-auto my-8">
       <h2 className="text-2xl font-bold mb-6 text-gray-800">Experience</h2>

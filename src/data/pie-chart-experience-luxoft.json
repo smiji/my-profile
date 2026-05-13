@@ -1,0 +1,8 @@
+[
+  { "x": "SpringBoot Microservices", "y": 70 },
+  { "x": "Sybase", "y": 10 },
+  { "x": "Hazelcast", "y": 5 },
+  {"x": "CI/CD-TeamCity/UDeploy", "y": 5 },
+  {"x": "Apache Camel", "y": 5 },
+  {"x": "Solace", "y": 5 } 
+]

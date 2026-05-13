@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 
 import Education from './components/Education';
 import TabbedExperience from './components/TabbedExperience';
+import {
+  ExperienceChartExperience,
+  ExperienceChartPie,
+} from './components/ExperienceChartHandler';
 import TabbedReference from './components/TabbedReference';
 import Profile from './components/Profile';
 import DraggableItem from './components/DraggableItem';
@@ -35,17 +39,15 @@ import referenceEntries from './data/reference.json';
 import profileSummary from './data/profilesummary.json';
 import skillsData from './data/skills-all.json';
 import headerData from './data/header.json';
+
 import tcsClients from './data/chart-experience-tcs.json';
 import luxoftClients from './data/chart-experience-luxoft.json';
 import ascendionClients from './data/chart-experience-ascendion.json';
-import chartData from './data/chart-pie-technology.json';
-
 import './index.css';
 
 function App() {
   const [enlargedChart, setEnlargedChart] = React.useState(false);
   const [enlargedPie, setEnlargedPie] = React.useState(false);
-  // Draggable items for left, center, and right columns
   const [leftItems, setLeftItems] = React.useState(['image', 'skills']);
   const [centerItems, setCenterItems] = React.useState([
     'profile',
@@ -54,11 +56,10 @@ function App() {
     'reference',
   ]);
   const [rightItems, setRightItems] = React.useState(['chart1', 'chart2']);
+  const [activeTab, setActiveTab] = React.useState(0);
 
-  // Handle drag end for all columns
   const handleDragEnd = (event) => {
     const { active, over } = event;
-    // Left column drag
     if (leftItems.includes(active.id) && leftItems.includes(over?.id)) {
       if (over && active.id !== over.id) {
         setLeftItems((items) => {
@@ -69,7 +70,6 @@ function App() {
       }
       return;
     }
-    // Center column drag
     if (centerItems.includes(active.id) && centerItems.includes(over?.id)) {
       if (over && active.id !== over.id) {
         setCenterItems((items) => {
@@ -80,7 +80,6 @@ function App() {
       }
       return;
     }
-    // Right column drag
     if (rightItems.includes(active.id) && rightItems.includes(over?.id)) {
       if (over && active.id !== over.id) {
         setRightItems((items) => {
@@ -160,7 +159,10 @@ function App() {
                 if (item === 'experience') {
                   return (
                     <DraggableItem id="experience" key="experience">
-                      <TabbedExperience experiences={experienceEntries} />
+                      <ExperienceChartExperience
+                        activeTab={activeTab}
+                        setActiveTab={setActiveTab}
+                      />
                     </DraggableItem>
                   );
                 }
@@ -229,11 +231,7 @@ function App() {
                         }}
                         onClick={() => setEnlargedPie((prev) => !prev)}
                       >
-                        <ChartPieTechnologies
-                          data={chartData}
-                          width={enlargedPie ? 800 : 400}
-                          height={enlargedPie ? 600 : 400}
-                        />
+                        <ExperienceChartPie activeTab={activeTab} />
                       </div>
                     </DraggableItem>
                   );

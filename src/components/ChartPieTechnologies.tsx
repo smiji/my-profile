@@ -19,9 +19,14 @@ const ChartPieTechnologies: React.FC<ChartPieTechnologiesProps> = ({ data, width
   return (
     <VictoryPie
       data={data}
-      colorScale={["#4f81bd", "#c0504d", "#9bbb59", "#8064a2", "#4bacc6", "#f79646", "#c0504d"]}
+      colorScale={["#4f81bd", "#c0504d", "#9bbb59", "#8064a2", "#4bacc6", "#f79646", "#c0504d","#13db2a", "#9bbb59", "#8064a2", "#4bacc6", "#f79646"]}
       labels={({ datum }) => `${datum.x}: ${datum.y}%`}
-      labelComponent={<VictoryLabel style={{ fill: "black", fontSize: scaledFontSize, fontWeight: "bold" }} />}
+      labelComponent={
+        <VictoryLabel
+          angle={20}
+          style={{ fill: "black", fontSize: scaledFontSize, fontWeight: "bold" ,textAnchor: "start" }}
+        />
+      }   
       width={width}
       height={height}
     />

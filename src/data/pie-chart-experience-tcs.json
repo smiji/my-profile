@@ -1,0 +1,10 @@
+[
+  { "x": "SpringBoot Microservices", "y": 50 },
+  { "x": "Sybase", "y": 10 },
+  { "x": "SQLServer", "y": 10 },
+  { "x": "Redis", "y": 5 },
+  {"x": "CI/CD-Jenkins", "y": 5 },
+  {"x": "Apache Kafka", "y": 5 },
+  {"x": "AWS", "y": 10 },
+  {"x": "Terraform", "y": 5 }  
+]
