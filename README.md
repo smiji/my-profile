@@ -84,3 +84,10 @@ This project demonstrates a draggable and reorderable layout using [dnd-kit](htt
 1. Run `npm install` if you haven't already.
 2. Run `npm start` and open the app in your browser.
 3. Drag and drop the Profile, Experience, Education, and Reference sections to reorder them.
+
+git add src/components/ChartPieTechnologies.tsx
+git add src/components/Header.tsx
+git add src/components/TabbedExperience.tsx
+git add src/index.js
+
+5554-4796-2462
