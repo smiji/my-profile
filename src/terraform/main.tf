@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_amplify_app" "my_profile" {
   name        = "my_profile"
   repository  = "https://github.com/smiji/my-profile.git"
-  oauth_token = "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"
+  oauth_token = ""
 }
 
 resource "aws_amplify_branch" "main" {
