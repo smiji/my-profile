@@ -245,9 +245,7 @@ function App() {
 
       {/* Footer */}
       {/* <Footer /> */}
-      <footer className="bg-gray-800 text-white py-2 text-center">
-        Footer
-      </footer>
+      <footer className="bg-gray-800 text-white py-2 text-center"></footer>
     </div>
   );
 }
