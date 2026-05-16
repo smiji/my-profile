@@ -5,9 +5,8 @@ type EducationEntry = {
   degree: string;
   institution: string;
   university: string;
-  from: number;
-  to: number;
-  overallMarksPercentage: number;
+  from: string;
+  to: string;
   grade: string;
 };
 

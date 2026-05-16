@@ -91,3 +91,14 @@ git add src/components/TabbedExperience.tsx
 git add src/index.js
 
 5554-4796-2462
+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
+
+https://www.udemy.com/course/the-complete-agentic-ai-engineering-course/learn/lecture/49770319#overview
+
+
+
+needandconnect.com
+
+
+
+
