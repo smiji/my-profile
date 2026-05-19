@@ -21,7 +21,7 @@ const Header: React.FC<HeaderProps> = ({...entries}) => {
      </div>     
       <div className="mt-2 text-sm text-gray-500 flex justify-between items-center">
         <div>
-          <p>Email: {contact.email}</p>
+          <p>Email: </p>
           <p>Phone: {contact.phone}</p>
       </div>
       <div className="text-right">
