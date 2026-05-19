@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({...entries}) => {
       </div>
       <div className="text-right">
           <p>LinkedIn: <a href={contact.linkedin} target="_blank" rel="noopener noreferrer">{contact.linkedin}</a></p>
-          <p>Address: {contact.address}</p>
+          <p>Address: </p>
       </div>
     </div>
     </div>
