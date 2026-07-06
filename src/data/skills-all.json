@@ -41,14 +41,14 @@
   "skills": [
     "Redis",
     "Hazelcast",
-    "Jboss Infinispan"
+    "JBoss Infinispan"
   ]
   },
   {
   "skill-name": "Integration Tools",
   "skills": [
     "Apache Camel",
-    "Appache Kafka",
+    "Apache Kafka",
     "Solace"
   ]
   },
